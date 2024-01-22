@@ -35,8 +35,12 @@ datatypes are of 7 types:----
 2.string
 -it represents textual data and is encoded as a sequence of 16-bit unsigned integer values representing UTF-16 code units.
 3.boolean
--it represents a logical entity and is inhavited by two by values true and false they are usually used for conditiobnal operations such as ternary operator if else ,while and etc.
+-it represents a logical entity and is inhavited by two by values true and false they are usually used for conditiobnal operations such as ternary operator, if else ,while and etc.
 4.undefined
+-
 5.null
 6.symbol
+-sysmbol is an unique and immutable primitive value and may be used as a key of an object properties.the purpose of symbol is to create unique property key that are guarented not to claus with keys of other code.
 7.bigInt
+-its a numeric primtive in javascript that can represents integers with our arbitary magnitudes.With bigInt we can safely store and operate on large integers even beyond the safe integer limit for numbers.
+note:undefined shows us the lake of a value whereas null shows us the lake of objects.
