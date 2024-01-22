@@ -31,6 +31,7 @@ Datatypes:---
 what type of data stored in a variable.
 datatypes are of 7 types:----
 1.number
+-it is a double precission 64-bit binary format. it is capable of storing positive floating point-numbers between 2 to the power -1074(min value) and 2 to the power(max value).
 2.string
 3.boolean
 4.undefined
