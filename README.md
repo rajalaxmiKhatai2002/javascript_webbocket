@@ -26,3 +26,14 @@ hoisting is a javascript mechanism where the variables and function declaration 
 ex: var a;
 console.log(a);
 a = 10;
+
+Datatypes:---
+what type of data stored in a variable.
+datatypes are of 7 types:----
+1.number
+2.string
+3.boolean
+4.undefined
+5.null
+6.symbol
+7.bigInt
