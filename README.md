@@ -11,3 +11,12 @@ Variable:---
 1.var
 2.let
 3.const
+
+Var:--
+1.var is used before echmascript 6.
+2.var is function scope.
+3.var dont have access to directly use window object.
+Let :--
+1.let is used after echmascript 6.
+2.let is block scope.
+3.wherease let have access to directly use window object.
