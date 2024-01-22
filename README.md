@@ -20,3 +20,9 @@ Let :--
 1.let is used after echmascript 6.
 2.let is block scope.
 3.wherease let have access to directly use window object.
+
+Hoisting in ajavascript:---
+hoisting is a javascript mechanism where the variables and function declaration are move to the top of their scope before code execution.
+ex: var a;
+console.log(a);
+a = 10;
