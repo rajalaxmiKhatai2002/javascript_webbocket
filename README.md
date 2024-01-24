@@ -39,6 +39,7 @@ datatypes are of 7 types:----
 4.undefined
 -
 5.null
+-standalone value
 6.symbol
 -sysmbol is an unique and immutable primitive value and may be used as a key of an object properties.the purpose of symbol is to create unique property key that are guarented not to claus with keys of other code.
 7.bigInt

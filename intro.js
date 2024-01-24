@@ -12,3 +12,4 @@ accountemail = "rajalaxmikhatai2002@gmail.com";
 console.log(accountemail);
 // prefer not to use var because of issues in block scope and function scope.
 console.table([accountemail,accountstate,password,accoutncity]);
+
