@@ -24,3 +24,5 @@
 // console.log(valuenumber);//number(we convert it to number)
 // console.log(typeof valuenumber);//-not anumber
 let isLoggedIn = 1;
+let booleanisloggedin = Boolean(isLoggedIn);
+console.log(booleanisloggedin);
