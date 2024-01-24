@@ -8,3 +8,5 @@ let isLoggedIn = false
 let state;
 let city = null
 
+console.log(typeof undefined);
+console.log(typeof null);
