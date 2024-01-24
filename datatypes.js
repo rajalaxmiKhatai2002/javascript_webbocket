@@ -42,13 +42,18 @@
 // console.log(2/2);
 // console.log(2%2);
 
-let str1 = "hello";
-let str2 = " Javascript";
-let str3 = str1 + str2; //string concatenation
-console.log(str3);
+// let str1 = "hello";
+// let str2 = " Javascript";
+// let str3 = str1 + str2; //string concatenation
+// console.log(str3);
 
-console.log("1" + 2);
-console.log(2 + "2");
-console.log("1" + 2 + 2);
-console.log(1 + 2 + "2");
-console.log((3 + 4) * 5 % 3);
+// console.log("1" + 2);
+// console.log(2 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+// console.log((3 + 4) * 5 % 3);
+
+let number1 = 100;
+++number1;
+number1++;
+console.log(number1);
