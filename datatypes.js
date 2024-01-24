@@ -16,10 +16,11 @@
 
 
 // conversion operation:-----------------------
-let score = "ritesh";
-// console.log(typeof score);//string
-// console.log(typeof(score));//string
+// let score = "ritesh";
+// // console.log(typeof score);//string
+// // console.log(typeof(score));//string
 
-let valuenumber = Number(score);
-console.log(valuenumber);//number(we convert it to number)
-console.log(typeof valuenumber);//-not anumber
+// let valuenumber = Number(score);
+// console.log(valuenumber);//number(we convert it to number)
+// console.log(typeof valuenumber);//-not anumber
+let isLoggedIn = 1;
