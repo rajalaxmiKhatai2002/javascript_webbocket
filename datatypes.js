@@ -27,7 +27,17 @@
 // let booleanisloggedin = Boolean(isLoggedIn);
 // console.log(booleanisloggedin);
 
-let somenumber = 33;
-let stringNumber = String(somenumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// let somenumber = 33;
+// let stringNumber = String(somenumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
+
+let value = 3
+let nagativevalue = -value;
+console.log(nagativevalue);
+
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2%2);
