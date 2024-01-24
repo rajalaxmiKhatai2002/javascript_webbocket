@@ -32,12 +32,17 @@
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
-let value = 3
-let nagativevalue = -value;
-console.log(nagativevalue);
+// let value = 3
+// let nagativevalue = -value;
+// console.log(nagativevalue);
 
-console.log(2+2);
-console.log(2-2);
-console.log(2*2);
-console.log(2/2);
-console.log(2%2);
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2%2);
+
+let str1 = "hello";
+let str2 = " Javascript";
+let str3 = str1 + str2; //string concatenation
+console.log(str3);
