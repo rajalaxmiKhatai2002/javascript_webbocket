@@ -116,3 +116,17 @@ let useremail;
 const id = Symbol('123')
 const anotherid = Symbol('123')
 
+console.log(id === anotherid);
+
+
+
+//reference(non-primitive)
+//array,objects,functions
+
+const heros = ["shaktiman","naagraj","doga"];
+console.log(heros);
+
+let myobj = {
+    name : "rajalaxmi",
+    age :  22
+}
