@@ -61,9 +61,22 @@ const gameName = new String('zymps-zp-com')
 
 
 //*****************************number comparision**************************** */
-console.log(2>1);
-console.log(2>=1);
-console.log(2<1);
-console.log(2 == 1);
-console.log(2 != 1);
+// console.log(2>1);
+// console.log(2>=1);
+// console.log(2<1);
+// console.log(2 == 1);
+// console.log(2 != 1);
 
+//string comparision
+console.log("2">1);
+console.log("02">1);
+
+//null comparision
+console.log(null>0);
+console.log(null == 0);
+console.log(null >= 0);
+
+//undefined comparision
+console.log(undefined == 0);
+console.log(undefined > 0);
+console.log(undefined < 0);
