@@ -34,9 +34,36 @@ const gameName = new String('zymps-zp-com')
 // console.log(balance.toString().length);
 // console.log(balance.toFixed(1));
 
-const othernumber = 123.8966;
-console.log(othernumber.toPrecision(4));
+// const othernumber = 123.8966;
+// console.log(othernumber.toPrecision(4));
 
-const hundred = 1000000
-console.log(hundred.toLocaleString('en-IN'));
-console.log(hundred.toLocaleString('en-US'));
+// const hundred = 1000000
+// console.log(hundred.toLocaleString('en-IN'));
+// console.log(hundred.toLocaleString('en-US'));
+
+// console.log(Math);
+// console.log(Math.abs(-4));
+// console.log(Math.round(4.6));
+// console.log(Math.ceil(4.5));
+// console.log(Math.floor(4.9));
+// console.log(Math.min(4,3,6,8));
+// console.log(Math.max(4,3,5,6.8));
+
+
+// console.log(Math.random());
+// console.log((Math.random()*10)+1);
+// console.log(Math.floor(Math.random()*10)+1);
+
+// const min = 10
+// const max = 20
+
+// console.log();
+
+
+//*****************************number comparision**************************** */
+console.log(2>1);
+console.log(2>=1);
+console.log(2<1);
+console.log(2 == 1);
+console.log(2 != 1);
+
