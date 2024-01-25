@@ -95,5 +95,10 @@ let myitemstamp = Date.now()
 
 console.log(myitemstamp);
 console.log(mycreatedate.getTime());
-console.log(Math.floor(Data.now()/1000));
+console.log(Math.floor(Date.now()/1000));
+
+let newdate = new Date()
+console.log(newdate);
+console.log(newdate.getMonth()+1);
+console.log(newdate.getDay());
 
