@@ -82,23 +82,37 @@ const gameName = new String('zymps-zp-com')
 // console.log(undefined < 0);
 
 //**************date******************** */
-let mydate = new Date()
-console.log(mydate.toString());
-console.log(mydate.toDateString());
-console.log(mydate.toLocaleDateString());
-console.log(typeof mydate);
+// let mydate = new Date()
+// console.log(mydate.toString());
+// console.log(mydate.toDateString());
+// console.log(mydate.toLocaleDateString());
+// console.log(typeof mydate);
 
-let mycreatedate = new Date("01-14-2023")
-console.log(mycreatedate.toLocaleString()); //method in js used to convert date object
+// let mycreatedate = new Date("01-14-2023")
+// console.log(mycreatedate.toLocaleString()); //method in js used to convert date object
 
-let myitemstamp = Date.now()
+// let myitemstamp = Date.now()
 
-console.log(myitemstamp);
-console.log(mycreatedate.getTime());
-console.log(Math.floor(Date.now()/1000));
+// console.log(myitemstamp);
+// console.log(mycreatedate.getTime());
+// console.log(Math.floor(Date.now()/1000));
 
-let newdate = new Date()
-console.log(newdate);
-console.log(newdate.getMonth()+1);
-console.log(newdate.getDay());
+// let newdate = new Date()
+// console.log(newdate);
+// console.log(newdate.getMonth()+1);
+// console.log(newdate.getDay());
+
+
+//primitive
+//7 types :string,number,boolean,null,undefined,sysmbol,bigint
+
+const score = 100
+const scorevalue = 100.3
+
+const isloggedin = false 
+const outsidetemp = null
+let useremail;
+
+const id = Symbol('123')
+const anotherid = Symbol('123')
 
