@@ -37,18 +37,18 @@
 // console.log("C ", myarray);
 // console.log(myn2, "splice");
 
-const marvel_heros = ["thor", "Ironman", "spiderman"]
-const dc_heros = ["superman", "flash", "batman"]
+// const marvel_heros = ["thor", "Ironman", "spiderman"]
+// const dc_heros = ["superman", "flash", "batman"]
 
-marvel_heros.push(dc_heros)
+// marvel_heros.push(dc_heros)
 
-console.log(marvel_heros, "marvel heros");
-console.log(marvel_heros[3][0]);
+// console.log(marvel_heros, "marvel heros");
+// console.log(marvel_heros[3][0]);
 
 // const allHeros = marvel_heros.concat(dc_heros)
 // console.log(allHeros, "allHeros");
 
-// const all_new_heros = [...marvel_heros, ...dc_heros]
+// const all_new_heros = [...marvel_heros, ...dc_heros] //here we use spread operator and it is used as array when we expect more than one output
 
 // console.log(all_new_heros, "all_new_heros");
 
@@ -56,7 +56,7 @@ console.log(marvel_heros[3][0]);
 
 // console.log(Array.isArray("zympsy"))
 // console.log(Array.from("zympsy"))
-// console.log(Array.from({name: "zympsy"})) // interesting
+// console.log(Array.from({name: "zympsy"})) //interesting
 
 let score1 = 100
 let score2 = 200
