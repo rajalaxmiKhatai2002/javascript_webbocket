@@ -1,8 +1,8 @@
-const myarray = [0,1,2,3,4,5]
-const myheros = ["shaktiman","naagraj"]
+// const myarray = [0,1,2,3,4,5]
+// const myheros = ["shaktiman","naagraj"]
 
-const myarray2 = new Array(1,2,3,4)
-console.log(myarray[1]);
+// const myarray2 = new Array(1,2,3,4)
+// console.log(myarray[1]);
 
 //Array methods
 
