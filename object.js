@@ -1,4 +1,4 @@
-// singleton - it means in a class we can create anly single instance for the application.
+// singleton - it means in a class we can create only single instance for the application.
 // Object.create
 
 // object literals - you can consider it as a datatype to declare an object in the form of key and value
@@ -16,11 +16,11 @@ const JsUser = {
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
-// console.log(JsUser)
-// console.log(JsUser.email)
-// console.log(JsUser["email"])
-// console.log(JsUser["full name"])
-// console.log(JsUser[mySym])
+console.log(JsUser)
+console.log(JsUser.email)
+console.log(JsUser["email"])
+console.log(JsUser["full name"])
+console.log(JsUser[mySym])
 
 // JsUser.email = "zympsy@chatgpt.com"
 // console.log(JsUser);
