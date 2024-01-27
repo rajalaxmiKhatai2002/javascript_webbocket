@@ -1,7 +1,7 @@
-// singleton
+// singleton - it means in a class we can create anly single instance for the application.
 // Object.create
 
-// object literals
+// object literals - you can consider it as a datatype to declare an object in the form of key and value
 
 const mySym = Symbol("key1")
 
