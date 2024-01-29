@@ -45,3 +45,6 @@ datatypes are of 7 types:----
 7.bigInt
 -its a numeric primtive in javascript that can represents integers with our arbitary magnitudes.With bigInt we can safely store and operate on large integers even beyond the safe integer limit for numbers.
 note:undefined shows us the lake of a value whereas null shows us the lake of objects.
+
+scope - determines the accesibility of variables.
+object and functions form different parts of the code.
