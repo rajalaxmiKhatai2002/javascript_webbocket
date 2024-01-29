@@ -1,28 +1,28 @@
 //arrow (=>) shorthand notation for defining function in javascript
 //{=>()}
-const user = {
-    username: "zympsy",
-    price: 999,
+// const user = {
+//     username: "zympsy",
+//     price: 999,
 
-   welcomeMessage : function() {
-        console.log(`${this.username} , welcome to website`);
-        console.log(this);
-    }
-}
+//    welcomeMessage : function() {
+//         console.log(`${this.username} , welcome to website`);
+//         console.log(this);
+//     }
+// }
 
+// // user.welcomeMessage()
+
+// user.username = "go-away"
 // user.welcomeMessage()
 
-user.username = "go-away"
-user.welcomeMessage()
+// console.log(this);
 
-console.log(this);
+function books(){
+    var username = "zympsy"
+    console.log(this.username, "undefined");
+}
 
-// // function books(){
-// //     var username = "zympsy"
-// //     // console.log(this.username, "undefined");
-// // }
-
-// // books()
+books()
 
 // // const books = function () {
 // //     let username = "zympsy"
