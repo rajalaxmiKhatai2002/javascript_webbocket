@@ -17,17 +17,17 @@
 
 // console.log(this);
 
-function books(){
-    var username = "zympsy"
-    console.log(this.username, "undefined");
+// function books(){
+//     var username = "zympsy"
+//     console.log(this.username, "undefined");
+// }
+
+// books()
+
+const books = function () {
+    let username = "zympsy"
+    console.log(this.username);
 }
-
-books()
-
-// // const books = function () {
-// //     let username = "zympsy"
-// //     console.log(this.username);
-// // }
 
 // // const books =  () => {
 // //     let username = "zympsy"
