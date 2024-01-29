@@ -48,3 +48,17 @@
 
 // const addTwo = (num1, num2) => ({username: "zympsy"})            //way-4
 // console.log(addTwo(3, 4))
+
+
+
+// Immediately Invoked Function Expressions (IIFE)
+
+
+(function me(){
+    // named IIFE
+    console.log(`DB CONNECTED`);
+})();
+
+( (name) => {
+    console.log(`DB CONNECTED TWO ${name}`);
+} )('zympsy')
