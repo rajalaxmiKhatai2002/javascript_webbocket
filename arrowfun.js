@@ -24,32 +24,32 @@
 
 // books()
 
-const books = function () {
-    let username = "zympsy"
-    console.log(this.username);
-}
-
-// // const books =  () => {
-// //     let username = "zympsy"
-// //     console.log(this);
-// // }
+// const books = function () {
+//     let username = "zympsy"
+//     console.log(this.username);
+// }
+// books();
+// const books =  () => {
+//     let username = "zympsy"
+//     console.log(this);
+// }
 // //this => does not have their own "this" context and inherit it from
 // //the enclosing scope 
 
-// // books()
+// books()
 
-// // const addTwo = (num1, num2) => {
-// //     return num1 + num2
-// // }
+// const addTwo = (num1, num2) => {
+//     return num1 + num2
+      // }                            way-1
 
-// // const addTwo = (num1, num2) =>  num1 + num2
+// const addTwo = (num1, num2) =>  num1 + num2    //way-2
 
-// // const addTwo = (num1, num2) => ( num1 + num2 )
+// // const addTwo = (num1, num2) => ( num1 + num2 )   //way-3
 
-// // const addTwo = (num1, num2) => ({username: "zympsy"})
+const addTwo = (num1, num2) => ({username: "zympsy"})            //way-4
+console.log(addTwo(3, 4))
 
 
-// // console.log(addTwo(3, 4))
 
 
 // // const myArray = [2, 5, 3, 7, 8]
