@@ -54,11 +54,11 @@
 // Immediately Invoked Function Expressions (IIFE)
 
 
-(function me(){
-    // named IIFE
-    console.log(`DB CONNECTED`);
-})();
+// (function me(){
+//     // named IIFE
+//     console.log(`DB CONNECTED`);
+// })();
 
-( (name) => {
-    console.log(`DB CONNECTED TWO ${name}`);
-} )('zympsy')
+// ( (name) => {
+//     console.log(`DB CONNECTED TWO ${name}`);
+// } )('zympsy')
