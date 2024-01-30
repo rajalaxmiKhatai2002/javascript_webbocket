@@ -268,48 +268,48 @@ for (let i = 0; i <= 10; i++) {
 //     console.log(`${key} shortcut is for ${myObject[key]}`);
 // }
 
-const programming = ["js", "rb", "py", "java", "cpp"]
+// const programming = ["js", "rb", "py", "java", "cpp"]
 
-// for (const key in programming) {
-//     //console.log(programming[key]);
-// }
+// // for (const key in programming) {
+// //     //console.log(programming[key]);
+// // }
 
-// const map = new Map()
-// map.set('IN', "India")
-// map.set('USA', "United States of America")
-// map.set('Fr', "France")
-// map.set('IN', "India")
+// // const map = new Map()
+// // map.set('IN', "India")
+// // map.set('USA', "United States of America")
+// // map.set('Fr', "France")
+// // map.set('IN', "India")
 
-// for (const key in map) {
-//     console.log(key);
-// }
-
-
-// const coding = ["js", "ruby", "java", "python", "cpp"]
+// // for (const key in map) {
+// //     console.log(key);
+// // }
 
 
-// const values = coding.forEach( (item) => {
-//     //console.log(item);
-//     return item
-// } )
+// // const coding = ["js", "ruby", "java", "python", "cpp"]
 
-// console.log(values);
 
-// const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-// // const newNums = myNums.filter( (num) => {
-// //     return num > 4
+// // const values = coding.forEach( (item) => {
+// //     //console.log(item);
+// //     return item
 // // } )
 
-// // const newNums = []
+// // console.log(values);
 
-// // myNums.forEach( (num) => {
-// //     if (num > 4) {
-// //         newNums.push(num)
-// //     }
-// // } )
+// // const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// // console.log(newNums);
+// // // const newNums = myNums.filter( (num) => {
+// // //     return num > 4
+// // // } )
+
+// // // const newNums = []
+
+// // // myNums.forEach( (num) => {
+// // //     if (num > 4) {
+// // //         newNums.push(num)
+// // //     }
+// // // } )
+
+// // // console.log(newNums);
 
 
 // const books = [
@@ -333,9 +333,9 @@ const programming = ["js", "rb", "py", "java", "cpp"]
 
 
 
-//   const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  const myNumers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-// // const newNums = myNumers.map( (num) => { return num + 10})
+const newNums = myNumers.map( (num) => { return num + 10})
 
 // const newNums = myNumers
 //                 .map((num) => num * 10 )
