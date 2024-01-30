@@ -186,3 +186,29 @@ for (let index = 1; index <= 20; index++) {
 //    console.log(`Value of i is ${index}`);
     
 // }
+
+
+
+
+//while loop checks the condition before executing the statement.
+//do-while loop executes the statement atleast once before checking the condition
+
+// let index = 0;
+// while (index <= 10) {
+//     console.log(`Value of index is ${index}`);
+//     index = index + 2
+// }
+
+let myArray = ["flash", "batman", "superman"];
+
+let arr = 0;
+while (arr < myArray.length) {
+  console.log(`Value is ${myArray[arr]}`);
+  arr = arr + 1;
+}
+
+// let score = 11;
+// do {
+//   console.log(`Score is ${score}`);
+//   score++;
+// } while (score <= 10);
