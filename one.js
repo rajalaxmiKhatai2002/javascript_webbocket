@@ -168,15 +168,15 @@ for (let i = 0; i <= 10; i++) {
 
 
 // break and continue
-
-for (let index = 1; index <= 20; index++) {
-    if (index == 9) {
-        console.log(`Detected 9`);
-        break
-    }
-   console.log(`Value of i is ${index}`);
+// 
+// for (let index = 1; index <= 20; index++) {
+//     if (index == 9) {
+//         console.log(`Detected 9`);
+//         break
+//     }
+//    console.log(`Value of i is ${index}`);
     
-}
+// }
 
 // for (let index = 1; index <= 20; index++) {
 //     if (index == 5) {
@@ -232,17 +232,17 @@ for (let index = 1; index <= 20; index++) {
 
 // Maps
 
-const map = new Map()
-map.set('IN', "India")
-map.set('USA', "United States of America")
-map.set('Fr', "France")
-map.set('IN', "India")
+// const map = new Map()
+// map.set('IN', "India")
+// map.set('USA', "United States of America")
+// map.set('Fr', "France")
+// map.set('IN', "India")
 
 
-console.log(map);
+// console.log(map);
 
 // for (const [key, value] of map) {
-//     // console.log(key, ':-', value);
+//     console.log(key, ':-', value);
 // }
 
 // const myObject = {
@@ -250,7 +250,36 @@ console.log(map);
 //     game2: 'Spiderman'
 // }
 
-// for (const [key, value] of myObject) {
+// for (const [key, value] in myObject) {
 //     console.log(key, ':-', value);
     
+// }
+
+
+
+const myObject = {
+    js: 'javascript',
+    cpp: 'C++',
+    rb: "ruby",
+    swift: "swift by apple"
+}
+
+for (const key in myObject) {
+    console.log(`${key} shortcut is for ${myObject[key]}`);
+}
+
+// const programming = ["js", "rb", "py", "java", "cpp"]
+
+// for (const key in programming) {
+//     //console.log(programming[key]);
+// }
+
+// const map = new Map()
+// map.set('IN', "India")
+// map.set('USA', "United States of America")
+// map.set('Fr', "France")
+// map.set('IN', "India")
+
+// for (const key in map) {
+//     console.log(key);
 // }
