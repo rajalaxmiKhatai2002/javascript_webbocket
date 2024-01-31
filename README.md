@@ -48,3 +48,20 @@ note:undefined shows us the lake of a value whereas null shows us the lake of ob
 
 scope - determines the accesibility of variables.
 object and functions form different parts of the code.
+
+
+if elemnets are added or remove the html collection reflects those changes.
+usage:--------
+commonly returned by properties such as children or mrthods like getElementByClassName/id/tag .
+
+node list------
+1.properties and methods:
+provides a broader set  of properties and methods compare to html collections in addition to length and item(index) it may include methods like foreach() and properties like entries.
+
+live or static------------
+nodelist can either be live or static.
+some methods like query selector all return while others like child nodes returns a live node list.
+usage:-
+commonly returns methods like query selector all or properties like child node.
+
+ 
