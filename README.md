@@ -64,4 +64,16 @@ some methods like query selector all return while others like child nodes return
 usage:-
 commonly returns methods like query selector all or properties like child node.
 
+
+
+promises:-----------
+a promise is an object repensting the evantual complition or failure of an asynchronous operation.
+state:-data stored in the application in the given moment
+it has states:pending,fullfill,rejected you can attached functions to be executed when the promise is resolved and rejected using  .then( )and .catch().
+
+async/await---------
+async is a keyword used to define a function that returns a promise.
+await is used within an async function to wait for a promise to resolve.it makes the code looks synchronous eventhough its asynchronous undernet.
+
+
  
